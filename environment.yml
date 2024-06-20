@@ -1,4 +1,4 @@
-name: database
+name: aida_retreat
 channels:
   - anaconda
   - conda-forge

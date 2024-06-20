@@ -1,8 +1,8 @@
+"""Main package for Aida Retreat 24."""
 
 
 def fibonacci(n: int = 5) -> int:
-    """
-    Calculate the Fibonacci sequence for a given number.
+    """Calculate the Fibonacci sequence for a given number.
 
     Args:
         n: The number for which the Fibonacci sequence needs to be calculated. Defaults to 5.
@@ -14,7 +14,6 @@ def fibonacci(n: int = 5) -> int:
         ValueError: If n is a negative integer.
 
     """
-
     if n < 0:
         raise ValueError("n must be a positive integer")
 
@@ -24,4 +23,4 @@ def fibonacci(n: int = 5) -> int:
     elif n == 1 or n == 2:
         return 1
     else:
-        return fibonacci(n-1) + fibonacci(n-2)
+        return fibonacci(n - 1) + fibonacci(n - 2)
