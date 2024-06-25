@@ -36,7 +36,8 @@ indent-width = 4
 target-version = "py311"
 
 [lint]
-# Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`) codes by default.
+# Enable pydocstyle ('D'), pycodestyle (`E`), Pyflakes (`F`) and isort ('I')  by default.
+# For more rules see: https://docs.astral.sh/ruff/rules/
 select = ["D", "E", "F", "I"]
 ignore = []
 
